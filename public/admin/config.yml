@@ -18,6 +18,21 @@ collections:
             name: "title" 
             widget: "string"
           - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Content, name: content, widget: markdown}
           - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
+
+  collections:
+  - label: "Promotions 2"
+    name: "Promotions 2"
+    description: "Enter information for the promo banner."
+    files:
+      - label: "Promotions"
+        name: "promotions"
+        file: "src/promotions/promo.json"
+        fields:
+          - label: "Title" 
+            name: "title" 
+            widget: "string"
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}        
