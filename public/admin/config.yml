@@ -13,37 +13,40 @@ collections:
       - label: "Promotions"
         name: "promotions"
         file: "src/promotions/promo.json"
-        widget: "object"
         fields:
-          - label: "Promo One"
-          - name: "Promo One"
-          - widget: "object"
-            fields: 
-            - label: "Promo One"
-            - name: "Promo One"  
-            - {label: Title, name: title, widget: string}
-            - {label: Subtitle, name: subtitle, widget: string}
-            - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-            - {label: "Body", name: "body", widget: "markdown"}
-          - label: "Promo Two"
-          - name: "Promo Two"
-          - widget: "object"
-            fields: 
-              - label: "Promo Two"
-              - name: "Promo Two"
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-              - {label: "Body", name: "body", widget: "markdown"}
-          - label: "Promo Three"
-          - name: "Promo Three"
-          - widget: "object"
-            fields: 
-              - label: "Promo Three"
-              - name: "Promo Three"
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-              - {label: "Body", name: "body", widget: "markdown"}
-
+          - label: "Title" 
+            name: "title" 
+            widget: "string"
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+        fields:
+          - label: "Title" 
+            name: "title" 
+            widget: "string"
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+fields:
+          - label: "Title" 
+            name: "title" 
+            widget: "string"
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+fields:
+          - label: "Title" 
+            name: "title" 
+            widget: "string"
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+fields:
+          - label: "Title" 
+            name: "title" 
+            widget: "string"
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+  
   
