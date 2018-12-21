@@ -21,7 +21,6 @@ collections:
           - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
 
-  collections:
   - label: "Promotions 2"
     name: "Promotions 2"
     description: "Enter information for the promo banner."
