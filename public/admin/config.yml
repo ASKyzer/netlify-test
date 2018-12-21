@@ -13,25 +13,33 @@ collections:
       - label: "Promotions"
         name: "promotions"
         file: "src/promotions/promo.json"
+        widget: "object"
         fields:
-          - label: "Title" 
-            name: "title" 
-            widget: "string"
+          - label: "Promo One"
+          - name: "Promo One"
+          - widget: "object"
+            fields: 
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+        fields:
+          - label: "Promo Two"
+          - name: "Promo Two"
+          - widget: "object"
+            fields: 
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+        fields:
+          - label: "Promo Three"
+          - name: "Promo Three"
+          - widget: "object"
+            fields: 
+          - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
 
-  - label: "Promotions 2"
-    name: "Promotions 2"
-    description: "Enter information for the promo banner."
-    files:
-      - label: "Promotions"
-        name: "promotions"
-        file: "src/promotions/promo.json"
-        fields:
-          - label: "Title" 
-            name: "title" 
-            widget: "string"
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-          - {label: "Body", name: "body", widget: "markdown"}        
+  
