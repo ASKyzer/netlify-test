@@ -45,11 +45,6 @@ collections:
             - {label: Subtitle, name: subtitle, widget: string}
             - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
             - {label: "Body", name: "body", widget: "markdown"}
-
-collections:
-  - label: "Collections 2"
-    name: "Collections 2"
-    description: "Testing Collections 2"
     files:
       - label: "about"
         name: "about"
@@ -86,3 +81,5 @@ collections:
             - {label: Subtitle, name: subtitle, widget: string}
             - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
             - {label: "Body", name: "body", widget: "markdown"}
+
+    
