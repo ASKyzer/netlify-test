@@ -19,25 +19,31 @@ collections:
           - name: "Promo One"
           - widget: "object"
             fields: 
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-          - {label: "Body", name: "body", widget: "markdown"}
+            - label: "Promo One"
+            - name: "Promo One"  
+            - {label: Title, name: title, widget: string}
+            - {label: Subtitle, name: subtitle, widget: string}
+            - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+            - {label: "Body", name: "body", widget: "markdown"}
           - label: "Promo Two"
           - name: "Promo Two"
           - widget: "object"
             fields: 
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-          - {label: "Body", name: "body", widget: "markdown"}
+              - label: "Promo Two"
+              - name: "Promo Two"
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+              - {label: "Body", name: "body", widget: "markdown"}
           - label: "Promo Three"
           - name: "Promo Three"
           - widget: "object"
             fields: 
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-          - {label: "Body", name: "body", widget: "markdown"}
+              - label: "Promo Three"
+              - name: "Promo Three"
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+              - {label: "Body", name: "body", widget: "markdown"}
 
   
