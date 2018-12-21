@@ -12,7 +12,7 @@ collections:
     files:
       - label: "Promotions"
         name: "promotions"
-        file: "src/promotions/promo.json"
+        file: "src/data/promo.json"
         widget: "object"
         fields:
           - label: "one"
@@ -51,7 +51,7 @@ collections:
     files:
       - label: "about"
         name: "about"
-        file: "src/about/about.json"
+        file: "src/data/about.json"
         widget: "object"
         fields:
           - label: "one"

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
-import promo from './promotions/promo.json'
+import promo from './data/promo.json'
 
 class App extends Component {
   render() {
@@ -8,6 +8,7 @@ class App extends Component {
     const promoArr = Object.keys(promo).map(i => promo[i])
 
     const promofull = promoArr.filter(p => (p.title !== "" || p.body !== ""))
+    console.log(promofull)
 
     return (
       <div className="App">
