@@ -17,7 +17,7 @@ class App extends Component {
             <div>
               <p>{promo.title}</p>
               <p>{promo.subtitle}</p>
-              <img src={promo.thumbnail} alt={promo.title}/>
+              <img src={promo.thumbnail} alt={promo.title} height="200"/>
               <p>{promo.body}</p>
             </div>
           ))}
