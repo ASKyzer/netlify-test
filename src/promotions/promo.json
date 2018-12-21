@@ -1,7 +1,6 @@
 {
-  "title": "Cabo pulmo diving",
-  "subtitle": "oldest coral reef in north america",
-  "content": "Compared to other polished but proprietary CMS products, it's an attempt at offering an open source standard to Git-centric content management. In other words, it aims at leveraging the budding community to become the WordPress of JAMstack & static workflows.",
+  "title": "Whale Shark",
+  "subtitle": "Whale Shark",
   "thumbnail": "/images/uploads/whaleshark.jpeg",
-  "body": "Compared to other polished but proprietary CMS products, it's an attempt at offering an open source standard to Git-centric content management. In other words, it aims at leveraging the budding community to become the WordPress of JAMstack & static workflows."
+  "body": "Once you've included the CMS on your site, content edition is a breeze. Add /admin at the end of your site's URL and you'll access the CMS UI.\n\n\n\nIt's smooth sailing from there:\n\n\n\nNew pages add new files to your GitHub repo.\n\n\n\nChanges & edits generate commits to existing files."
 }
