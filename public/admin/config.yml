@@ -8,11 +8,11 @@ media_folder: "images/uploads" # Media files will be stored in the repo under im
 collections:
   - label: "Promotions"
     name: "Promotions"
-    description: "Enter promotional information for the promo banner."
+    description: "Enter information for the promo banner."
     files:
       - label: "Promotions"
         name: "promotions"
-        file: "plublic/promotions/promo.json"
+        file: "public/promotions/promo.json"
         fields:
           - label: "Title" 
             name: "title" 
