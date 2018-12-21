@@ -13,7 +13,6 @@ collections:
       - label: "Promotions"
         name: "promotions"
         file: "src/promotions/promo.json"
-        widget: "object"
         fields:
           label: "promoOne"
           name: "promoOne"
