@@ -23,7 +23,6 @@ collections:
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
-        fields:
           - label: "Promo Two"
           - name: "Promo Two"
           - widget: "object"
@@ -32,7 +31,6 @@ collections:
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
-        fields:
           - label: "Promo Three"
           - name: "Promo Three"
           - widget: "object"
