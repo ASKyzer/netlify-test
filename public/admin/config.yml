@@ -18,30 +18,30 @@ collections:
           - label: "promoOne"
             name: "promoOne"
             widget: "object"
-              fields: 
-              - label: "Title" 
-                name: "title" 
-                widget: "string"
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-              - {label: "Body", name: "body", widget: "markdown"}
+            fields: 
+            - label: "Title" 
+              name: "title" 
+              widget: "string"
+            - {label: Subtitle, name: subtitle, widget: string}
+            - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+            - {label: "Body", name: "body", widget: "markdown"}
           - label: "promoTwo"
             name: "promoTwo"
             widget: "object"
-              fields:
-              - label: "Title" 
-                name: "title" 
-                widget: "string"
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-              - {label: "Body", name: "body", widget: "markdown"}
+            fields:
+            - label: "Title" 
+              name: "title" 
+              widget: "string"
+            - {label: Subtitle, name: subtitle, widget: string}
+            - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+            - {label: "Body", name: "body", widget: "markdown"}
           - label: "promoThree"
             name: "promoThree"
             widget: "object"
-             fields:
-              - label: "Title" 
-                name: "title" 
-                widget: "string"
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-              - {label: "Body", name: "body", widget: "markdown"}
+            fields:
+            - label: "Title" 
+              name: "title" 
+              widget: "string"
+            - {label: Subtitle, name: subtitle, widget: string}
+            - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+            - {label: "Body", name: "body", widget: "markdown"}
