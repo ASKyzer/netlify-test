@@ -15,8 +15,8 @@ collections:
         file: "src/promotions/promo.json"
         widget: "object"
         fields:
-          - label: "promoOne"
-            name: "promoOne"
+          - label: "one"
+            name: "one"
             widget: "object"
             fields: 
             - label: "Title" 
@@ -25,8 +25,8 @@ collections:
             - {label: Subtitle, name: subtitle, widget: string}
             - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
             - {label: "Body", name: "body", widget: "markdown"}
-          - label: "promoTwo"
-            name: "promoTwo"
+          - label: "two"
+            name: "two"
             widget: "object"
             fields:
             - label: "Title" 
@@ -35,8 +35,8 @@ collections:
             - {label: Subtitle, name: subtitle, widget: string}
             - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
             - {label: "Body", name: "body", widget: "markdown"}
-          - label: "promoThree"
-            name: "promoThree"
+          - label: "three"
+            name: "three"
             widget: "object"
             fields:
             - label: "Title" 
