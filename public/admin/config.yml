@@ -6,31 +6,15 @@ media_folder: "images/uploads" # Media files will be stored in the repo under im
 
 
 collections:
-  - label: "Pages"
-    name: "pages"
+  - label: "Promotions"
+    name: "Promotions"
+    description: "Enter promotional information for the promo banner."
     files:
-      - label: "About Page"
-        name: "about"
+      - label: "Promotions"
+        name: "promotions"
         file: "plublic/promotions/promo.json"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Team
-            name: team
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Position, name: position, widget: string}
-              - {label: Photo, name: photo, widget: image}
-      - label: "Locations Page"
-        name: "locations"
-        file: "site/content/locations.yml"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Locations
-            name: locations
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Address, name: address, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Content, name: subtitle, widget: markdown}
+          
