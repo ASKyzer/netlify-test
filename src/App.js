@@ -1,34 +1,26 @@
-import React, { Component } from 'react';
-// import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
 import promo from './promotions/promo.json'
 
 class App extends Component {
   render() {
 
-    const promoArr = [];
-    console.log(promo)
+    const promoArr = Object.keys(promo).map(i => promo[i])
 
-    
+    const promofull = promoArr.filter(p => (p.title !== "" || p.body !== ""))
 
     return (
       <div className="App">
         <header className="App-header">
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <p>{promo.one.title}</p>
-          <p>{promo.one.subtitle}</p>
-          <img src={promo.one.thumbnail} alt={promo.one.title}/>
-          <p>{promo.one.body}</p>
-          <br/>
-          <p>{promo.two.title}</p>
-          <p>{promo.two.subtitle}</p>
-          <img src={promo.two.thumbnail} alt={promo.two.title}/>
-          <p>{promo.two.body}</p>
-          <br/>
-          <p>{promo.three.title}</p>
-          <p>{promo.three.subtitle}</p>
-          <img src={promo.three.thumbnail} alt={promo.three.title}/>
-          <p>{promo.three.body}</p>
+          {promofull.map(promo => (
+            <div>
+              <p>{promo.title}</p>
+              <p>{promo.subtitle}</p>
+              <img src={promo.thumbnail} alt={promo.title}/>
+              <p>{promo.body}</p>
+            </div>
+          ))}
         </header>
       </div>
     );
