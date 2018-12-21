@@ -12,12 +12,12 @@ collections:
     files:
       - label: "Promotions"
         name: "promotions"
-        file: "public/promotions/promo.json"
+        file: "src/promotions/promo.json"
         fields:
           - label: "Title" 
             name: "title" 
             widget: "string"
           - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Content, name: subtitle, widget: markdown}
+          - {label: Content, name: content, widget: markdown}
           - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown"}

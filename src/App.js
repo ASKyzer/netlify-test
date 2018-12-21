@@ -1,24 +1,21 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import promo from './promotions/promo.json'
 
 class App extends Component {
   render() {
+    console.log(promo)
+
     return (
       <div className="App">
         <header className="App-header">
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <p>{promo.title}</p>
+          <p>{promo.subtitle}</p>
+          <img src={promo.thumbnail} alt={promo.title}/>
+          <p>{promo.body}</p>
+
         </header>
       </div>
     );
