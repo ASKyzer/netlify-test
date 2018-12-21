@@ -1,6 +1,20 @@
 {
-  "title": "Whale Shark",
-  "subtitle": "Whale Shark",
-  "thumbnail": "/images/uploads/whaleshark.jpeg",
-  "body": "Once you've included the CMS on your site, content edition is a breeze. Add /admin at the end of your site's URL and you'll access the CMS UI.\n\n\n\nIt's smooth sailing from there:\n\n\n\nNew pages add new files to your GitHub repo.\n\n\n\nChanges & edits generate commits to existing files."
+  "one": {
+    "title": "Promotion One",
+    "subtitle": "Subtitle for promotion One",
+    "thumbnail": "/images/uploads/logo-transparent-fish.png",
+    "body": "Content for Promotion One"
+  },
+  "two": {
+    "title": "Promotion Two",
+    "subtitle": "Subtitle for promotion Two",
+    "thumbnail": "/images/uploads/otdhlogo.png",
+    "body": "Content for Promotion Two"
+  },
+  "three": {
+    "title": "Promotion 3",
+    "subtitle": "Subtitle for promotion 3",
+    "thumbnail": "/images/uploads/otdh.jpg",
+    "body": "Content for promotion Three"
+  }
 }
