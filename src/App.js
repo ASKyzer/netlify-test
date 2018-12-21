@@ -5,7 +5,11 @@ import promo from './promotions/promo.json'
 
 class App extends Component {
   render() {
+
+    const promoArr = [];
     console.log(promo)
+
+    
 
     return (
       <div className="App">
