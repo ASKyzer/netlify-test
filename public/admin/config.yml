@@ -13,40 +13,35 @@ collections:
       - label: "Promotions"
         name: "promotions"
         file: "src/promotions/promo.json"
+        widget: "object"
         fields:
+          label: "promoOne"
+          name: "promoOne"
+          widget: "object"
+          fields: 
           - label: "Title" 
             name: "title" 
             widget: "string"
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
-        fields:
+        label: "promoTwo"
+          name: "promoTwo"
+          widget: "object"
+          fields:
           - label: "Title" 
             name: "title" 
             widget: "string"
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
-fields:
+label: "promoThree"
+          name: "promoThree"
+          widget: "object"
+          fields:
           - label: "Title" 
             name: "title" 
             widget: "string"
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
-fields:
-          - label: "Title" 
-            name: "title" 
-            widget: "string"
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-          - {label: "Body", name: "body", widget: "markdown"}
-fields:
-          - label: "Title" 
-            name: "title" 
-            widget: "string"
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-          - {label: "Body", name: "body", widget: "markdown"}
-  
-  
