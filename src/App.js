@@ -11,11 +11,20 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <p>{promo.title}</p>
-          <p>{promo.subtitle}</p>
-          <img src={promo.thumbnail} alt={promo.title}/>
-          <p>{promo.body}</p>
-
+          <p>{promo.one.title}</p>
+          <p>{promo.one.subtitle}</p>
+          <img src={promo.one.thumbnail} alt={promo.one.title}/>
+          <p>{promo.one.body}</p>
+          <br/>
+          <p>{promo.two.title}</p>
+          <p>{promo.two.subtitle}</p>
+          <img src={promo.two.thumbnail} alt={promo.two.title}/>
+          <p>{promo.two.body}</p>
+          <br/>
+          <p>{promo.three.title}</p>
+          <p>{promo.three.subtitle}</p>
+          <img src={promo.three.thumbnail} alt={promo.three.title}/>
+          <p>{promo.three.body}</p>
         </header>
       </div>
     );
