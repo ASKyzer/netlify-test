@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './App.css'
 import promo from './data/promo.json'
+import about from './data/about.json'
+
 
 class App extends Component {
   render() {
@@ -22,6 +24,9 @@ class App extends Component {
               <p>{promo.body}</p>
             </div>
           ))}
+          <p>{about.title}</p>
+          <p>{about.subtitle}</p>
+          <p>{about.content}</p>
         </header>
       </div>
     );

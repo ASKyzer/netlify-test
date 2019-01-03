@@ -43,7 +43,7 @@ collections:
     name: "About"
     description: "Enter information for the about section."          
     files:
-      - label: "about"
+      - label: "About"
         name: "about"
         file: "src/data/about.json"
         widget: "object"
@@ -56,7 +56,7 @@ collections:
     name: "Hostel"
     description: "Enter information for the hostel section."          
     files:
-      - label: "hostel"
+      - label: "Hostel"
         name: "hostel"
         file: "src/data/hostel.json"
         widget: "object"
