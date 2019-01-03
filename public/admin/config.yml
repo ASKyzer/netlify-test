@@ -19,9 +19,7 @@ collections:
             name: "one"
             widget: "object"
             fields: 
-            - label: "Title" 
-              name: "title" 
-              widget: "string"
+            - {label: Title, name: title, widget: string}
             - {label: Subtitle, name: subtitle, widget: string}
             - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
             - {label: "Body", name: "body", widget: "markdown"}
@@ -29,9 +27,7 @@ collections:
             name: "two"
             widget: "object"
             fields:
-            - label: "Title" 
-              name: "title" 
-              widget: "string"
+            - {label: Title, name: title, widget: string}
             - {label: Subtitle, name: subtitle, widget: string}
             - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
             - {label: "Body", name: "body", widget: "markdown"}
@@ -39,9 +35,7 @@ collections:
             name: "three"
             widget: "object"
             fields:
-            - label: "Title" 
-              name: "title" 
-              widget: "string"
+            - {label: Title, name: title, widget: string}
             - {label: Subtitle, name: subtitle, widget: string}
             - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
             - {label: "Body", name: "body", widget: "markdown"}
@@ -52,37 +46,52 @@ collections:
       - label: "about"
         name: "about"
         file: "src/data/about.json"
-        widget: "object"
+        fields: 
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+          - {label: "Content", name: "content", widget: "markdown"}
+  - label: "Hostel"
+    name: "Hostel"
+    description: "Enter information for the hostel section."          
+    files:
+      - label: "hostel"
+        name: "hostel"
+        file: "src/data/hostel.json"
         fields:
-          - label: "one"
-            name: "one"
-            widget: "object"
-            fields: 
-            - label: "Title" 
-              name: "title" 
-              widget: "string"
-            - {label: Subtitle, name: subtitle, widget: string}
-            - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-            - {label: "Body", name: "body", widget: "markdown"}
-          - label: "two"
-            name: "two"
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+          - {label: "Content", name: "content", widget: "markdown"}
+          - {label: Amenities, name: amenities, widget: list}
+          - label: "Room Types"
+            name: "rooms"
             widget: "object"
             fields:
-            - label: "Title" 
-              name: "title" 
-              widget: "string"
-            - {label: Subtitle, name: subtitle, widget: string}
-            - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-            - {label: "Body", name: "body", widget: "markdown"}
-          - label: "three"
-            name: "three"
-            widget: "object"
-            fields:
-            - label: "Title" 
-              name: "title" 
-              widget: "string"
-            - {label: Subtitle, name: subtitle, widget: string}
-            - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-            - {label: "Body", name: "body", widget: "markdown"}
+              - label: "Full House"
+                name: "full"
+                widget: "object"
+                fields: 
+                  - {label: Description, name: description, widget: markdown}
+                  - {label: Rate, name: rate, widget: number}
+                  - {label: "Image", name: "thumbnail", widget: "image", required: false}
+              - label: "Private Room"
+                name: "private"
+                widget: "object"
+                fields: 
+                  - {label: Description, name: description, widget: markdown}
+                  - {label: Rate, name: rate, widget: number}
+                  - {label: "Image", name: "thumbnail", widget: "image", required: false}
+              - label: "Shared Room"
+                name: "shared"
+                widget: "object"
+                fields: 
+                  - {label: Description, name: description, widget: markdown}
+                  - {label: Rate, name: rate, widget: number}
+                  - {label: "Image", name: "thumbnail", widget: "image", required: false}
+
+
+
+
 
     
