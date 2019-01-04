@@ -91,8 +91,71 @@ collections:
                   - {label: Description, name: description, widget: markdown}
                   - {label: Rate, name: rate, widget: number}
                   - {label: "Image", name: "thumbnail", widget: "image", required: false}
-
-
+  - label: "Freediving"
+    name: "Freediving"
+    description: "Enter information for the freediving section."          
+    files:
+      - label: "Freediving"
+        name: "freediving"
+        file: "src/data/freediving.json"
+        widget: "object"
+        fields: 
+          - label: "Freediving"
+            name: "freediving"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+              - {label: "Content", name: "content", widget: "markdown"}
+          - label: "Why Freediving"
+            name: "why-freediving"
+            widget: "object"
+            fields: 
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+              - {label: "Content", name: "content", widget: "markdown"}
+  - label: "Scuba Diving"
+    name: "Scubadiving"
+    description: "Enter information for the scuba diving section."          
+    files:
+      - label: "Scuba Diving"
+        name: "scubadiving"
+        file: "src/data/scubadiving.json"
+        widget: "object"
+        fields: 
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+          - {label: "Content", name: "content", widget: "markdown"}
+  - label: "Cabo Pulmo"
+    name: "Cabo Pulmo"
+    description: "Enter information for the Cabo Pulmo section."          
+    files:
+      - label: "Cabo Pulmo"
+        name: "cabopulmo"
+        file: "src/data/cabopulmo.json"
+        widget: "object"
+        fields: 
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+          - {label: "Content", name: "content", widget: "markdown"}
+  - label: "Whale Shark"
+    name: "Whale Shark"
+    description: "Enter information for the Whale Shark section."          
+    files:
+      - label: "Whale Shark"
+        name: "whaleshark"
+        file: "src/data/whaleshark.json"
+        widget: "object"
+        fields: 
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+          - {label: "Content", name: "content", widget: "markdown"}
+  
 
 
 
