@@ -1,7 +1,7 @@
 {
   "title": "Ocean Tigers Dive House",
   "subtitle": "Book Directly With Us for the best rates.",
-  "content": "At Ocean Tigers Dive House, we pride ourselves on providing that \"home sweet home\" feeling people love so much. It's almost like home away from home.\n\n\n\nOur dive house hostel, located in Cabo San Lucas Baja Mexico, offers a beautiful stay at an affordiable price; With a focus on freediving, diving and more!",
+  "content": "<p>At Ocean Tigers Dive House, we pride ourselves on providing that <span class=\"text-primary\">\"home sweet home\"</span> feeling people love so much. It's almost like home away from home.</p>\n\n<p>Our dive house hostel, located in Cabo San Lucas Baja Mexico, offers a beautiful stay at an affordable price; With a focus on freediving, diving and more!</p>",
   "amenities": [
     "swimming pool",
     "Terrace",
@@ -9,7 +9,12 @@
     "a living room with Sofa",
     "Play station 4",
     "games like FIFA and Netflix",
-    "WIFI"
+    "WIFI",
+    "Awesome Staff",
+    "Hammocks and BBQ to chill out",
+    "Shared room with 3 bunk beds and bathroom",
+    "2 Private rooms with private bathroom",
+    "continental breakfast included"
   ],
   "rooms": {
     "full": {
