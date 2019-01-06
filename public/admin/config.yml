@@ -52,6 +52,24 @@ collections:
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
           - {label: "Content", name: "content", widget: "markdown"}
+          - {label: Email, name: email, widget: string}
+          - {label: Phone, name: phone, widget: number}
+          - label: "Address"
+            name: "address"
+            widget: "object"
+            fields: 
+              - {label: Street, name: street, widget: string}
+              - {label: City, name: city, widget: string}
+              - {label: State, name: state, widget: string}
+              - {label: Zip, name: zip, widget: number}
+          - label: "Social Media Links"
+            name: "social-media"
+            widget: "object"
+            fields: 
+              - {label: Facebook, name: facebook, widget: string}
+              - {label: Twitter, name: twitter, widget: string}
+              - {label: YouTube, name: youtube, widget: string}
+              - {label: Instagram, name: instagram, widget: string}
   - label: "Hostel"
     name: "Hostel"
     description: "Enter information for the hostel section."          
