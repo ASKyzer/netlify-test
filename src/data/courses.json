@@ -1,0 +1,149 @@
+{
+  "freediving": {
+    "aida-1": {
+      "name": "AIDA 1 or PADI Freediver",
+      "description": "1 day of freediving theory, static, constant weight and free immersion.",
+      "includes": [
+        "1 x beach-entry freediving sessions",
+        "1 x swimming pool static session",
+        "1 night stay offered at the dive house hostel."
+      ],
+      "content": "Discover & Beginner Freediving Courses In Cabo San Lucas With Ocean Tigers You've never been freediving and want to try it? Say Hola to the AIDA 1 Star or PADI Basics program. Start out in our training pool and learn the basic theories. Afterwards, depending on your comfort, we can then decide between a beach or boat entry dive. Plan on a full day's worth of training. Or if you just want to practice with us, checkout sign-up for one of our training sessions."
+    },
+    "aida-2": {
+      "name": "AIDA 2 or PADI Advanced Freediver",
+      "description": "2-3 days of freediving theory, static, constant weight, free immersion, and dynamic freediving.",
+      "includes": [
+        "1 x swimming pool static session",
+        "1 x beach-entry session",
+        "2 x boat-entry sessions",
+        "3 night stay offered at the dive house hostel."
+      ],
+      "content": "Become Certified In Freediving at Ocean Tigers Hostel, a specialty hostel in freediving and scuba diving, we offer AIDA 2 as well as PADI's Freediver PADI Course, here in cabo. If you decide to sign up for one of these courses, we offer 2 free nights to stay at the dive house hostel in Cabo San Lucas free of charge!"
+    },
+    "aida-3": {
+      "name": "AIDA 3",
+      "description": "3-4 days of constant weight, free immersion, dynamic, and static freediving",
+      "includes": [
+        "2 x swimming pool static sessions",
+        "1 x beach-entry freediving sessions",
+        "2 x boat-entry freediving sessions",
+        "4 night stay offered at the dive house hostel."
+      ],
+      "content": "Become Advanced Certified In Freediving And Take Your Skills To The Next Level at Ocean Tigers Hostel, a specialty hostel in freediving and scuba diving, we offer AIDA 2 & 3 star courses as well as PADI's Freediver PADI Course, here in cabo. If you decide to sign up for one of these courses, we offer 2 free nights to stay at the dive house hostel in Cabo San Lucas free of charge!"
+    }
+  },
+  "training-course": {
+    "title": "Training Course",
+    "subtitle": "Hone In On Your Freediving Skills and Come Join Us In Cabo San Lucas.",
+    "description": "If you’re already certified or have freediving experience and want coached practice, come visit us in cabo at our dive hostel. Practice down to 16m (52.5ft) at the beach or 50m (164ft) via boat-entry dive.",
+    "duration": "2 hour Training Course",
+    "depth": "Practice down to 16m (52.5ft) at the beach or 50m (164ft) via boat-entry dive.\n"
+  },
+  "scubadiving": {
+    "introduction": {
+      "pool-session": {
+        "name": "Free Pool Session",
+        "description": "Description",
+        "duration": "30 mins - 1 hour of fun in our pool",
+        "includes": [
+          "list here"
+        ],
+        "content": "blah blah blah"
+      },
+      "scuba": {
+        "name": "Discover Scuba Diving",
+        "description": "Description",
+        "duration": "Length of time here",
+        "includes": [
+          "1 x pool dive at the hostel in cabo",
+          "1 x boat-entry dives with 1 tanks",
+          "2Basic Classroom Instruction at the hostel in cabo"
+        ],
+        "content": "You've never been Scuba diving and want to try it without investing a lot? Sign up for our free pool session or take the DSD ( Discover Scuba Diving ) course were you will start out in our training pool at the hostel in cabo, and then get properly trained to head out for a boat-entry dive. The DSD applies towards your first steps to becoming a diver in PADI's Scuba Diver & Open Water Certification. Plan on a half days worth of training & theory for the DSD. <span class=\"text-primary\">Contact us for details and possible promotions.</span>"
+      }
+    },
+    "intermediate": {
+      "scuba": {
+        "name": "PADI Scuba Diver Certification",
+        "description": "Description",
+        "duration": "This 2-3 day course includes:",
+        "includes": [
+          "3 x pool dives at the hostel in cabo",
+          "1 x boat-entry dives with 2 tanks",
+          "Classroom Instruction at the hostel in cabo",
+          "The PADI certification Test",
+          "2 nights stay offered free of charge at the dive house hostel."
+        ],
+        "content": "blah blah blah"
+      },
+      "open-water": {
+        "name": "PADI Open Water Certification",
+        "description": "Description",
+        "duration": "This 3-4 day course includes",
+        "includes": [
+          "5 x pool entry dives at the hostel in Cabo San Lucas",
+          "4 x boat entry dives",
+          "Classroom Instruction at the hostel in Cabo San Lucas",
+          "The PADI Open Water certification test",
+          "2 nights stay offered free of charge at the dive house hostel."
+        ],
+        "content": "blah blah blah"
+      }
+    },
+    "advanced": {
+      "adventure": {
+        "name": "PADI Adventure Diver",
+        "description": "Description",
+        "duration": "This 1 - 2 days",
+        "includes": [
+          "3 x boat entry dives in cabo",
+          "2 night stay offered at the dive house hostel."
+        ],
+        "content": "blah blah blah"
+      },
+      "padi-open-water": {
+        "name": "PADI Advanced Open Water",
+        "description": "Description",
+        "duration": "This 2-3 day",
+        "includes": [
+          "5 x boat entry dives",
+          "Offers specializations including deep dive and navigation",
+          "2 night stay offered at the dive house hostel."
+        ],
+        "content": "blah blah blah"
+      },
+      "rescue": {
+        "name": "PADI Rescue Diver",
+        "description": "Description",
+        "duration": "This 3-4 day",
+        "includes": [
+          "Rescue Skills and 2 x scenarios in Cabo San Lucas",
+          "4 x boat entry dives",
+          "2 night stay offered at the dive house hostel."
+        ],
+        "content": "blah blah blah"
+      },
+      "master-scuba": {
+        "name": "PADI Master Scuba Diver",
+        "description": "Certification Prerequisites: 50 dives in logbook, 5 specialities, Advanced and Rescue Certifications, Emergency First Responder certified within the past two years.",
+        "duration": "length of course",
+        "includes": [
+          "rescue skills and two scenarios in Cabo San Lucas",
+          "4 x boat entry dives",
+          "2 night stay offered at the dive house hostel."
+        ],
+        "content": "blah blah blah"
+      },
+      "divemaster": {
+        "name": "PADI Divemaster Course",
+        "description": "description",
+        "duration": "length of course",
+        "includes": [
+          "list goes here"
+        ],
+        "content": "blah blah blah"
+      }
+    }
+  }
+}
