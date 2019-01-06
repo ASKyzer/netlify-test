@@ -39,6 +39,22 @@ collections:
             - {label: Subtitle, name: subtitle, widget: string}
             - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
             - {label: "Body", name: "body", widget: "markdown"}
+          - label: "four"
+            name: "four"
+            widget: "object"
+            fields:
+            - {label: Title, name: title, widget: string}
+            - {label: Subtitle, name: subtitle, widget: string}
+            - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+            - {label: "Body", name: "body", widget: "markdown"}
+          - label: "five"
+            name: "five"
+            widget: "object"
+            fields:
+            - {label: Title, name: title, widget: string}
+            - {label: Subtitle, name: subtitle, widget: string}
+            - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+            - {label: "Body", name: "body", widget: "markdown"}
   - label: "About"
     name: "About"
     description: "Enter information for the about section."          
@@ -173,8 +189,146 @@ collections:
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
           - {label: "Content", name: "content", widget: "markdown"}
-  
-
-
-
-    
+  - label: "Courses"
+    name: "courses"
+    description: "Enter information for the Courses offered by Ocean Tigers Dive House."          
+    files:
+      - label: "Courses"
+        name: "courses"
+        file: "src/data/courses.json"
+        widget: "object"
+        fields: 
+          - label: "Freediving"
+            name: "freediving"
+            widget: "object"
+            fields:
+              - label: "AIDA 1"
+                name: "aida-1"
+                widget: "object"
+                fields: 
+                  - {label: Name, name: name, widget: string}
+                  - {label: Description, name: description, widget: string}
+                  - {label: "Courses Includes", name: "include", widget: "list"}
+                  - {label: "Image", name: "thumbnail", widget: "image", required: false}
+                  - {label: "Content", name: "content", widget: "markup"}
+              - label: "AIDA 2"
+                name: "aida-2"
+                widget: "object"
+                fields:
+                  - {label: Name, name: name, widget: string}
+                  - {label: Description, name: description, widget: string}
+                  - {label: "Courses Includes", name: "include", widget: "list"}
+                  - {label: "Image", name: "thumbnail", widget: "image", required: false}
+                  - {label: "Content", name: "content", widget: "markup"}
+              - label: "AIDA 3"
+                name: "aida-3"
+                widget: "object"
+                fields:
+                  - {label: Name, name: name, widget: string}
+                  - {label: Description, name: description, widget: string}
+                  - {label: "Courses Includes", name: "include", widget: "list"}
+                  - {label: "Image", name: "thumbnail", widget: "image", required: false}
+                  - {label: "Content", name: "content", widget: "markup"}
+          - label: "Training Course"
+            name: "training-course"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+              - {label: "Description", name: "description", widget: "markdown"}
+              - {label: Duration, name: duration, widget: string}
+              - {label: Depth, name: depth, widget: text}
+          - label: "Scuba Diving"
+            name: "scubadiving"
+            widget: "object"
+            fields:
+              - label: "Introduction"
+                name: "introduction"
+                widget: "object"
+                fields: 
+                  - label: "Free Pool Session"
+                    name: "pool-session"
+                    fields: 
+                      - {label: Name, name: name, widget: string}
+                      - {label: Description, name: description, widget: string}
+                      - {label: Duration, name: duration, widget: string}
+                      - {label: "Courses Includes", name: "includes", widget: "list"}
+                      - {label: "Image", name: "thumbnail", widget: "image", required: false}
+                      - {label: "Content", name: "content", widget: "markup"}
+                  - label: "Discover Scuba Diving"
+                    name: "scuba"
+                    widget: "object"
+                    fields:
+                      - {label: Name, name: name, widget: string}
+                      - {label: Description, name: description, widget: string}
+                      - {label: Duration, name: duration, widget: string}  
+                      - {label: "Courses Includes", name: "includes", widget: "list"}
+                      - {label: "Image", name: "thumbnail", widget: "image", required: false}
+                      - {label: "Content", name: "content", widget: "markup"}
+              - label: "Intermediate"
+                name: "intermediate"
+                widget: "object"
+                fields: 
+                  - label: "PADI Scuba Diver Certification"
+                    name: "padi-scuba"
+                    fields: 
+                      - {label: Name, name: name, widget: string}
+                      - {label: Description, name: description, widget: string}
+                      - {label: Duration, name: duration, widget: string}
+                      - {label: "Courses Includes", name: "includes", widget: "list"}
+                      - {label: "Image", name: "thumbnail", widget: "image", required: false}
+                      - {label: "Content", name: "content", widget: "markup"}
+                  - label: "PADI Open Water Certification"
+                    name: "padi-open-water"
+                    widget: "object"
+                    fields:
+                      - {label: Name, name: name, widget: string}
+                      - {label: Description, name: description, widget: string}
+                      - {label: Duration, name: duration, widget: string}                      
+                      - {label: "Courses Includes", name: "includes", widget: "list"}
+                      - {label: "Image", name: "thumbnail", widget: "image", required: false}
+                      - {label: "Content", name: "content", widget: "markup"}
+              - label: "Advanced"
+                name: "advanced"
+                widget: "object"
+                fields: 
+                  - label: "PADI Adventure Diver"
+                    name: "adventure"
+                    fields: 
+                      - {label: Name, name: name, widget: string}
+                      - {label: Description, name: description, widget: string}
+                      - {label: Duration, name: duration, widget: string}
+                      - {label: "Courses Includes", name: "includes", widget: "list"}
+                      - {label: "Image", name: "thumbnail", widget: "image", required: false}
+                      - {label: "Content", name: "content", widget: "markup"}
+                  - label: "PADI Advanced Open Water"
+                    name: "padi-open-water"
+                    widget: "object"
+                    fields:
+                      - {label: Name, name: name, widget: string}
+                      - {label: Description, name: description, widget: string}
+                      - {label: Duration, name: duration, widget: string}                      
+                      - {label: "Courses Includes", name: "includes", widget: "list"}
+                      - {label: "Image", name: "thumbnail", widget: "image", required: false}
+                      - {label: "Content", name: "content", widget: "markup"}
+                  - label: "PADI Master Scuba Diver"
+                    name: "master-scuba"
+                    widget: "object"
+                    fields:
+                      - {label: Name, name: name, widget: string}
+                      - {label: Description, name: description, widget: string}
+                      - {label: Duration, name: duration, widget: string}                      
+                      - {label: "Courses Includes", name: "includes", widget: "list"}
+                      - {label: "Image", name: "thumbnail", widget: "image", required: false}
+                      - {label: "Content", name: "content", widget: "markup"}
+                  - label: "PADI Divemaster Course"
+                    name: "divemaster"
+                    widget: "object"
+                    fields:
+                      - {label: Name, name: name, widget: string}
+                      - {label: Description, name: description, widget: string}
+                      - {label: Duration, name: duration, widget: string}                      
+                      - {label: "Courses Includes", name: "includes", widget: "list"}
+                      - {label: "Image", name: "thumbnail", widget: "image", required: false}
+                      - {label: "Content", name: "content", widget: "markup"}
