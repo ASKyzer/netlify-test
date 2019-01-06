@@ -249,6 +249,7 @@ collections:
                 fields: 
                   - label: "Free Pool Session"
                     name: "pool-session"
+                    widget: "object"
                     fields: 
                       - {label: Name, name: name, widget: string}
                       - {label: Description, name: description, widget: string}
@@ -272,6 +273,7 @@ collections:
                 fields: 
                   - label: "PADI Scuba Diver Certification"
                     name: "scuba"
+                    widget: "object"
                     fields: 
                       - {label: Name, name: name, widget: string}
                       - {label: Description, name: description, widget: string}
@@ -295,6 +297,7 @@ collections:
                 fields: 
                   - label: "PADI Adventure Diver"
                     name: "adventure"
+                    widget: "object"
                     fields: 
                       - {label: Name, name: name, widget: string}
                       - {label: Description, name: description, widget: string}
