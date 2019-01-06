@@ -315,6 +315,16 @@ collections:
                       - {label: "Courses Includes", name: "includes", widget: "list"}
                       - {label: "Image", name: "thumbnail", widget: "image", required: false}
                       - {label: "Content", name: "content", widget: "markdown"}
+                  - label: "PADI Rescue Diver"
+                    name: "rescue"
+                    widget: "object"
+                    fields:
+                      - {label: Name, name: name, widget: string}
+                      - {label: Description, name: description, widget: string}
+                      - {label: Duration, name: duration, widget: string}                      
+                      - {label: "Courses Includes", name: "includes", widget: "list"}
+                      - {label: "Image", name: "thumbnail", widget: "image", required: false}
+                      - {label: "Content", name: "content", widget: "markdown"}                 
                   - label: "PADI Master Scuba Diver"
                     name: "master-scuba"
                     widget: "object"
